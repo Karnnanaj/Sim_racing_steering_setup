@@ -1,3 +1,0 @@
-
-UnoJoyProcessingVisualizer
-UnoJoyProcessingVisualizer.jar,core.jar,RXTXcomm.jar,serial.jar
