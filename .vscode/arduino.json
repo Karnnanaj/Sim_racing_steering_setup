@@ -1,5 +1,6 @@
 {
     "board": "arduino:avr:uno",
     "programmer": "arduinoasispatmega32u4",
-    "sketch": "UnoJoyWin\\UnoJoyArduinoSample\\UnoJoyArduinoSample.ino"
+    "sketch": "UnoJoyWin\\UnoJoyArduinoSample\\UnoJoyArduinoSample.ino",
+    "port": "COM4"
 }

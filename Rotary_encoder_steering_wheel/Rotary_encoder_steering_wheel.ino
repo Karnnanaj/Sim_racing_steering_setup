@@ -67,9 +67,9 @@ void updateSteeringWithEncoder() {
   // Debounce and check for a change in state
   if (currentEncoderStateA != lastEncoderStateA) {
     if (digitalRead(encoderPinB) != currentEncoderStateA) {
-      encoderValue = min(255, encoderValue + 1);  // Clockwise rotation
+      encoderValue = min(255, encoderValue + 7);  // Clockwise rotation
     } else {
-      encoderValue = max(0, encoderValue - 1);    // Counterclockwise rotation
+      encoderValue = max(0, encoderValue - 7);    // Counterclockwise rotation
     }
     lastEncoderStateA = currentEncoderStateA;
   }
